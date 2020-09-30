@@ -1,0 +1,29 @@
+.reponse{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 5px;
+}
+
+.calculette{
+    border: solid 2px black; 
+    height: 450px; 
+    width: 350px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top:50px; 
+    background-color: #141410;
+    position: relative;
+}
+
+.afficheur{
+    height: 50px;
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.row{
+    display: flex;
+}
+
