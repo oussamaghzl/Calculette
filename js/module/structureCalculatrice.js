@@ -1,4 +1,4 @@
-let myBody = document.querySelector('body')
+export let myBody = document.querySelector('body')
 
 let mySection = document.createElement('section')
 let myDiv = document.createElement('div')
