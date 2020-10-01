@@ -17,7 +17,7 @@ myH1.style = 'text-align: center; text-decoration: underline;';
 // Section
 
 let mySection2 = document.createElement('section');
-let myDiv2 = document.createElement('div');
+export let myDiv2 = document.createElement('div');
 
 myBody.appendChild(mySection2);
 mySection2.appendChild(myDiv2);
@@ -25,12 +25,12 @@ mySection2.appendChild(myDiv2);
 // Dessin de la calculette
 
 myDiv2.className = 'calculette';
-let myReponse = document.createElement('h3');
+export let myReponse = document.createElement('h3');
 
 myDiv2.appendChild(myReponse);
 
 myReponse.className = 'reponse';
-myReponse.textContent = '0193919';
+myReponse.textContent = 'Resultat';
 
 export let myInput = document.createElement('input');
 myDiv2.appendChild(myInput);
